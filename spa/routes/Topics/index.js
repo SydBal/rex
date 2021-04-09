@@ -7,11 +7,13 @@ import {
   useParams
 } from 'react-router-dom'
 
+import HeaderAndFooter from '@Layouts/HeaderAndFooter'
+
 export default props => {
   const match = useRouteMatch()
 
   return (
-    <div>
+    <HeaderAndFooter>
       <h2>Topics</h2>
 
       <ul>
@@ -37,7 +39,7 @@ export default props => {
           <h3>Please select a topic.</h3>
         </Route>
       </Switch>
-    </div>
+    </HeaderAndFooter>
   )
 }
 

@@ -8,16 +8,12 @@ import {
   Route
 } from 'react-router-dom'
 
-import Header from '@Components/Header'
-import Footer from '@Components/Footer'
-
 import Home from './_root'
 import About from './About'
 import Topics from './Topics'
 
 export default props =>
   <Router>
-    <Header />
     <Switch>
       <Route path='/about'>
         <About />
@@ -29,5 +25,4 @@ export default props =>
         <Home />
       </Route>
     </Switch>
-    <Footer />
   </Router>
