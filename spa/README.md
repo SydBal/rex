@@ -7,11 +7,11 @@ Built with:
 ## Aliases
 The common Webpack config for this projects has a couple aliases defined for convenience. These aliases are only available in `import` statements within the React application
 
-The `spa` folder itself can be accessed via `SPA`.
+The `spa` folder itself can be accessed via `@SPA`.
 
-The `components` folder can be accessed via `Components`.
+The `components` folder can be accessed via `@Components`.
 
-The `routes` folder can be accessed via `Routes`.
+The `routes` folder can be accessed via `@Routes`.
 
 ## Components
 Prefer the usage of functional components and hooks.

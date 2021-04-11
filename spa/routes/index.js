@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom'
@@ -12,8 +12,8 @@ import Home from './_root'
 import About from './About'
 import Topics from './Topics'
 
-export default props =>
-  <Router>
+const Router = props =>
+  <BrowserRouter>
     <Switch>
       <Route path='/about'>
         <About />
@@ -25,4 +25,6 @@ export default props =>
         <Home />
       </Route>
     </Switch>
-  </Router>
+  </BrowserRouter>
+
+export default Router

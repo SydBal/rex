@@ -1,12 +1,12 @@
 {
   "parser": "babel-eslint",
   "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
     "standard",
-    "standard-react",
-    "plugin:react/recommended"
+    "standard-react"
   ],
   "rules": {
-    "react/prop-types": 0,
-    "react/jsx-fragments": [true, "syntax"]
+    "react/prop-types": 0
   }
 }

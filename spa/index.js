@@ -11,5 +11,5 @@ const App = () =>
 render(<App />, document.getElementById('spa-entry'))
 
 if (module.hot) {
-  module.hot.accept();
+  module.hot.accept()
 }
