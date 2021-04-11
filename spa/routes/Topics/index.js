@@ -9,7 +9,7 @@ import {
 
 import HeaderAndFooter from '@Layouts/HeaderAndFooter'
 
-export default props => {
+const Topics = props => {
   const match = useRouteMatch()
 
   return (
@@ -47,3 +47,5 @@ function Topic () {
   const { topicId } = useParams()
   return <h3>Requested topic ID: {topicId}</h3>
 }
+
+export default Topics
