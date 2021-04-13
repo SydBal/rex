@@ -26,7 +26,11 @@ module.exports = {
               '@babel/env',
               '@babel/react'
             ]
-          }
+          },
+          plugins: [
+            '@babel/plugin-transform-react-jsx',
+            '@babel/plugin-proposal-class-properties'
+          ]
         }
       },
       {
